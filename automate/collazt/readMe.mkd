@@ -1,0 +1,8 @@
+Collazts Sequesnce
+
+_\*\* write down collazt function
+check if its a prime number and return the value
+check if its a even number and return 3_ number + 1
+
+1.  ask the user for num
+2.  call the callazt func untill it return 1
