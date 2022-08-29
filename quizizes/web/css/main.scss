@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    background-color: #181b32;
+}
+
+.logo{
+    color: white;
+    padding: 10px 5vw;
+}
+
+.qnsContainer{
+    display: flex;
+    justify-content: center;
+    .innerContainer{
+        background-color: #282c48;
+        width: 60vw;
+        height: 80vh;
+        padding: 10px 100px;
+
+        .user{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 0px;
+            border-bottom: 1px solid #181b32;
+            p{
+                color: white;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+
+        .qnses{
+            .circular{
+                 display: flex;
+            justify-content: space-between;
+            padding: 20px 0px;
+
+            p {
+  color:#181b32;
+ 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+            }
+            .theqns{
+                color: white;
+                 font-family: Arial, Helvetica, sans-serif;
+                 font-size: 20px;
+            }
+
+            .ansContainer{
+                .answer{
+                    border: 1px solid #404566;
+                    padding: 10px 8px;
+                    margin: 15px 0px;
+
+                    p{
+                        color: white;
+                        text-transform: capitalize;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: 300;
+
+                    }
+                }
+            }
+          
+        }
+        .buttonContainer {
+  margin-top: 20px;
+  text-align: end;
+
+  button{
+      background-color: #4b22f4;
+      outline: none;
+      border: none;
+      padding: 10px 40px;
+      color: white;
+      text-transform: capitalize;
+  }
+}
+
+    }
+}
